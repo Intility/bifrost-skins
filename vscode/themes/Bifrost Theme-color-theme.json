@@ -1,0 +1,22 @@
+{
+	"name": "Bifrost Theme",
+	"colors": {
+		"editor.background": "#09182a",
+		"editor.foreground": "#00ff2f",
+		"activityBarBadge.background": "#09182a",
+		"sideBarTitle.foreground": "#0df2d7",
+		"sideBar.background": "#0c1b2d",
+		"sideBarSectionHeader.background": "#0f2033",
+		"sideBarSectionHeader.foreground": "#0df2d7",
+		"button.background": "#0f2033",
+		"button.border": "#617d9e",
+		"button.foreground": "#0df2d7",
+		"textLink.foreground": "#0df2d7",
+		"titleBar.activeBackground": "#0f2033",
+		"tab.activeBackground": "#0f2033",
+		"tab.activeBorder": "#0df2d7",
+		"tab.inactiveBackground": "#0f2033",
+		"tab.border": "#0f2033",
+	},
+	"tokenColors": "./RefinedBlue.tmTheme",
+}

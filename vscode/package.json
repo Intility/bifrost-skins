@@ -1,0 +1,21 @@
+{
+    "name": "bifrost-theme",
+    "displayName": "Bifrost Theme",
+    "description": "Pimp your vscode to match Intility' Bifrost Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bifrost Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bifrost Theme-color-theme.json"
+            }
+        ]
+    }
+}
