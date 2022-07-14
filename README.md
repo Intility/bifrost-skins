@@ -10,4 +10,4 @@ More skins for other tools might be included in the future.
 
 ## 🚀 Contributing
 
-*TODO*
+Please read the [Contribution guide](CONTRIBUTION.md)
