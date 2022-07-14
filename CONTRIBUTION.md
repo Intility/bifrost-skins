@@ -3,11 +3,12 @@
 ## Issues with an existing theme
 
 1. Create a new issue, and provide a descriptive title and description.
-2. Create a new branch with the naming `issue/#<issue_id>`.
-3. Fix the problem
-4. Create a new pull request
+2. Fork this repo.
+3. Create a new branch with the naming `issue/#<issue_id>`.
+4. Fix the problem
+5. Create a new pull request
    - Assign the original creator as the reviewer
-5. Wait for the pull request to be merged.
+6. Wait for the pull request to be merged.
 
 ## I want to contribute with a new skin
 
