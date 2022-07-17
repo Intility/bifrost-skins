@@ -1,18 +1,103 @@
 {
+	// Theme Colors
+	// https://code.visualstudio.com/api/references/theme-color
 	"name": "Bifrost Theme",
 	"colors": {
+		// Contrast Colors
+		// The contrast colors are typically only set for high contrast themes. If set, they add an additional border around items across the UI to increase the contrast.
 		"contrastBorder": "#243242",
+
+		// Base colors
+		"focusBorder":"#FFFFFF00",
 		"foreground": "#eaf2fa",
 		"disabledForeground": "#495869",
+		"errorForeground": "#ff4b33",
+		"icon.foreground": "#eaf2fa",
+		"sash.hoverBorder": "#0df2d7",
+
+		// Text colors
+		// Colors inside a text document, such as the welcome page
+		"textLink.foreground": "#0df2d7",
+		"textLink.activeForeground": "#0df2d7",
+
+		// Action colors
+		// A set of colors to control the interactions with actions across the workbench 
+		"toolbar.hoverBackground": "#0c1b2d",
+		"toolbar.hoverOutline": "#617d9e",
+		
+		// Button control
+		// A set of colors for button widgets such as Open Folder button in the Explorer of a new window.
+		"button.background": "#0f2033",
+		"button.foreground": "#0df2d7",
+		"button.border": "#617d9e",
+		"button.hoverBackground": "#0c1b2d",
+		"checkbox.background": "#0f2033",
+		"checkbox.foreground": "#0df2d7",
+		"checkbox.border": "#617d9e",
+
+		// Dropdown control
+		// A set of colors for all Dropdown widgets such as in the Integrated Terminal or the Output panel. Note that the Dropdown control is not used on macOS currently.
+		"dropdown.background":"#0f2033",
+		"dropdown.foreground": "#eaf2fa",
+		"dropdown.border": "#617d9e",
+		"dropdown.listBackground":"#0f2033",
+
+		// Input control
+		// Colors for input controls such as in the Search view or the Find/Replace dialog.
+		"input.background": "#0f2033",
+		"input.border": "#617d9e",
+		"input.foreground": "#eaf2fa",
+		"input.placeholderForeground":"#8a98a8",
+		"inputValidation.errorBackground":"#420800",
+		"inputValidation.errorBorder": "#420800",
+		"inputValidation.errorForeground": "#ff7866",
+		"inputValidation.warningBackground":"#664200",
+		"inputValidation.warningBorder": "#664200",
+		"inputValidation.warningForeground": "#ffeb94",
+		"inputValidation.infoBackground":"#250e58",
+		"inputValidation.infoBorder": "#250e58",
+		"inputValidation.infoForeground": "#a175ff",
+
+		// Scrollbar control
+		"scrollbarSlider.background": "#243242",
+		"scrollbar.shadow": "#0000007b",
+
+		// Badge
+		// Badges are small information labels, for example, search results count
+		"badge.foreground": "#eaf2fa",
+		"badge.background": "#243242",
+
+		// Progress bar
+		"progressBar.background":"#0f2033",
+
+		// Lists and trees
+		// Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
+		"list.activeSelectionBackground": "#00424d",
+		"list.activeSelectionForeground":"#0df2d7",
+		"list.activeSelectionIconForeground": "#eaf2fa",
+
+		"list.hoverBackground": "#09182a",
+		"list.inactiveFocusOutline": "#00424df2",
+		"list.inactiveSelectionBackground": "#00424df2",
+		"list.inactiveSelectionForeground": "#eaf2fa",
+		"list.focusForeground": "#eaf2fa",
+		"list.hoverForeground": "#eaf2fa",
+		"list.invalidItemForeground": "#eaf2fa",
+		"list.inactiveSelectionIconForeground": "#eaf2fa",
+		"list.focusOutline": "#00424df2",
+		"list.inactiveFocusBackground": "#0df2d7",
+
 		"editor.background": "#09182a",
 		"titleBar.activeBackground": "#0f2033",
+		"editorWidget.background": "#09182a",
+		"editorWidget.border": "#243242",
 		"activityBar.background": "#0f2033",
 		"activityBar.activeBorder": "#0df2d7",
 		"activityBar.activeBackground": "#0f2033",
 		"activityBar.activeFocusBorder": "#0df2d7",
 		"activityBar.inactiveForeground": "#495869",
 		"activityBarBadge.foreground": "#0df2d7",
-		"scrollbarSlider.background": "#243242",
+
 		"activityBarBadge.background": "#09182a",
 		"sideBarTitle.foreground": "#0df2d7",
 		"sideBar.background": "#0c1b2d",
@@ -21,10 +106,8 @@
 		"sideBar.border": "#243242",
 		"sideBarSectionHeader.border": "#243242",
 		"sideBySideEditor.verticalBorder": "#243242",
-		"button.background": "#0f2033",
-		"button.border": "#617d9e",
-		"button.foreground": "#0df2d7",
-		"textLink.foreground": "#0df2d7",
+
+		"editorGroupHeader.tabsBackground": "#0c1b2d",
 		"tab.activeBackground": "#0f2033",
 		"tab.activeBorder": "#0df2d7",
 		"tab.inactiveBackground": "#0f2033",
@@ -37,22 +120,7 @@
 		"panel.border": "#243242",
 		"panelInput.border": "#243242",
 		"panelTitle.inactiveForeground": "#495869",
-		"list.hoverBackground": "#09182a",
-		"list.inactiveFocusOutline": "#00424df2",
-		"list.inactiveSelectionBackground": "#00424df2",
-		"list.inactiveSelectionForeground": "#eaf2fa",
-		"list.focusForeground": "#eaf2fa",
-		"list.hoverForeground": "#eaf2fa",
-		"list.invalidItemForeground": "#eaf2fa",
-		"list.inactiveSelectionIconForeground": "#eaf2fa",
-		"list.activeSelectionBackground": "#00424df2",
-		"list.focusOutline": "#00424df2",
-		"list.inactiveFocusBackground": "#0df2d7",
-		"input.background": "#0f2033",
-		"input.border": "#617d9e",
-		"input.foreground": "#eaf2fa",
 		"inputOption.activeBorder": "#c3cbd5",
-		"statusBar.background": "#ff0000"
 	},
 	"tokenColors": "./RefinedBlue.tmTheme",
 }
