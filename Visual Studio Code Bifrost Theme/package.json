@@ -1,0 +1,28 @@
+{
+    "name": "intility-bifrost-theme",
+    "displayName": "Intility Bifrost Theme",
+    "description": "Theme for Visual Studio Code based on the colors from Intility's design system Bifrost",
+    "version": "0.1.0",
+    "icon": "assets/intility-bifrost-theme-icon-dark.png",
+    "galleryBanner": {
+        "color": "#09192b",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.72.0"
+    },
+    "author": {
+        "name": "August Gaukstad"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "Bifrost",
+            "uiTheme": "vs-dark",
+            "path": "./themes/intility-bifrost-theme.json"
+        }]
+    }
+
+}
