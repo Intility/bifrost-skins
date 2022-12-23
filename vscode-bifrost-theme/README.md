@@ -5,7 +5,7 @@ This is a color theme for Visual Studio Code inspired by the [Intility Bifrost D
 
 ___
 ## Installation
-**More info to come :)**
+Open VS Code and search for `Intility Bifrost` in the Extensions pane, and then intall and activate the color theme. 
 
 If you have `Bracket Pair Colorization` enabled, you need to do the following to get Bifrost colors for your brackets and similar symbols:
 
@@ -29,7 +29,7 @@ The theme should work with any font/typeface, but I recommend installing and usi
 
 ___
 ## Screenshot
-![Theme screenshot](https://github.com/Intility/bifrost-skins/blob/main/vscode-bifrost-theme/assets/screenshot.png?raw=true)
+![Theme screenshot](https://intility.no/wp-content/uploads/2022/12/screenshot.png)
 ___
 ## Credit
 This theme was made using a online tool for creating VS Code themes, as well as manually assigning colors.
