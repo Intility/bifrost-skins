@@ -29,7 +29,7 @@ The theme should work with any font/typeface, but I recommend installing and usi
 
 ___
 ## Screenshot
-![Theme screenshot](/assets/screenshot.png)
+![Theme screenshot](https://github.com/Intility/bifrost-skins/blob/main/vscode-bifrost-theme/assets/screenshot.png?raw=true)
 ___
 ## Credit
 This theme was made using a online tool for creating VS Code themes, as well as manually assigning colors.

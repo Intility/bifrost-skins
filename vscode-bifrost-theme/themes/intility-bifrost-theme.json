@@ -1841,6 +1841,13 @@
             "settings": {
                 "fontStyle": "italic"
             }
+        },
+        {
+            "name": "Markdown Text",
+            "scope": "meta.paragraph.markdown",
+            "settings": {
+                "foreground": "#eaf2fa"
+            }
         }
     ],
     "colors": {
