@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.1.4] - 2023-05-05
+
+### Adjusted
++ Indent lines that are not active have less opacity
++ The background when selecting text has more contrast to the background
++ Adjusted color for various properties in CSS-files
++ Editor gutter (line numbers) now has same background color as the editor (the area where you write code)
++ Minimap has a darker background color to differentiate it from the main editor window
++ `CTRL/CMD + F` search results are more visible
+
+### Removed
++ Removed highlight of currently active line
+
+### Docs
++ Moved section on `Bracket Pair Colorization` from `README.md` to `EXTRAS.md`
 
 ## [0.1.3] - 2022-12-23
 
