@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.5] - 2023-18-08
+
+### Adjusted
++ Comments are slightly brighter, increasing contrast
++ `jsx/tsx` text is white instead of red
++ Prop attributes in `jsx/tsx` are pink instead of white
++ HTML-tags are now more orange-red instead of pure red, easier to distinguish from error-red
++ `object.property` in jsx/tsx prop is blue instead of purple, since the `object` itself is purple
+
+### Fixed
++ Input fields are now visible
 ## [0.1.4] - 2023-05-05
 
 ### Adjusted
