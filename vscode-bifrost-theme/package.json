@@ -2,7 +2,7 @@
     "name": "intility-bifrost-theme",
     "displayName": "Intility Bifrost Theme",
     "description": "Theme for Visual Studio Code based on the colors from Intility's design system Bifrost",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "publisher": "augigauki",
     "icon": "assets/intility-bifrost-theme-icon-dark.png",
     "galleryBanner": {
