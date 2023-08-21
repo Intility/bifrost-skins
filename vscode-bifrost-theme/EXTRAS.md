@@ -9,16 +9,16 @@ If you have `Bracket Pair Colorization` enabled, you need to do the following to
 2. Paste the following code there:
 
 ```
-"editor.bracketPairColorization.enabled": true,
-"workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#eaf2fa",
+ "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ffeb95",
     "editorBracketHighlight.foreground2": "#b595fb",
     "editorBracketHighlight.foreground3": "#ff978a",
     "editorBracketHighlight.foreground4": "#24f7a6",
     "editorBracketHighlight.foreground5": "#fb65c0",
     "editorBracketHighlight.foreground6": "#ffeb95",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#fd604b",
-},
+    "editorBracketHighlight.unexpectedBracket.foreground": "#fd5039"
+  },
 ```
 ## Better Comments
 If you use the [Better Comments](https://github.com/aaron-bond/better-comments) extension, I recommend customizing the colors like this in your User Settings JSON:

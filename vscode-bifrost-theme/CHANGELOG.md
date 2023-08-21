@@ -1,6 +1,11 @@
 # Changelog
 
-## [0.1.5] - 2023-18-08
+## [0.1.6] - 2023-08-21
+
+### Adjusted
++ Made several adjustments to logic-match colors based on default dark theme from VS Code.
++ Adjusted bracket pair colors for `Bracket Pair Colorization` plugin in [EXTRAS.md](extras.md)
+## [0.1.5] - 2023-08-18
 
 ### Adjusted
 + Comments are slightly brighter, increasing contrast
