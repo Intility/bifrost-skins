@@ -3,9 +3,7 @@
 ## [0.1.6] - 2023-08-21
 
 ### Adjusted
-+ Made html-tags grey instead of orange-red
-+ Made css terminators grey instead of orange-red
-+ Made comments dark green instead of grey
++ Made several adjustments to logic-match colors based on default dark theme from VS Code.
 + Adjusted bracket pair colors for `Bracket Pair Colorization` plugin in [EXTRAS.md](extras.md)
 ## [0.1.5] - 2023-08-18
 
