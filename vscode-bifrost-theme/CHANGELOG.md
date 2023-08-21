@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.6] - 2023-08-18
+## [0.1.6] - 2023-08-21
 
 ### Adjusted
 + Made html-tags grey instead of orange-red
