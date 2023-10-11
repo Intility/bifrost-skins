@@ -704,6 +704,41 @@
             }
         },
         {
+            "name": "C# Using",
+            "scope": "keyword.other.directive.using.cs",
+            "settings": {
+                "foreground": "#FC83CC"
+            }
+        },
+        {
+            "name": "C# Variable field & parameter",
+            "scope": "entity.name.variable.field.cs,entity.name.variable.parameter.cs",
+            "settings": {
+                "foreground": "#24eed6"
+            }
+        },
+        {
+            "name": "C# Purple",
+            "scope": "keyword.type.string.cs,keyword.operator.expression.default.cs,keyword.operator.expression.await.cs,keyword.type.int.cs,keyword.operator.expression.new.cs,keyword.type.bool.cs,keyword.type.double.cs,keyword.type.float.cs",
+            "settings": {
+                "foreground": "#b595fb"
+            }
+        },
+        {
+            "name": "C# decimal",
+            "scope": "constant.numeric.decimal.cs",
+            "settings": {
+                "foreground": "#cceca8"
+            }
+        },
+        {
+            "name": "C# Seagreen",
+            "scope": "entity.name.variable.property.cs",
+            "settings": {
+                "foreground": "#24eed6"
+            }
+        },
+        {
             "name": "Storage",
             "scope": "storage",
             "settings": {
@@ -1159,7 +1194,6 @@
             "scope": "support.type.property-name.json punctuation",
             "settings": {
                 "foreground": "#24eed6",
-                "true": false,
             }
         },
         {
@@ -1984,6 +2018,13 @@
             }
         },
         {
+            "name": "js/ts tags",
+            "scope": "entity.name.tag.ts,entity.name.tag.js",
+            "settings": {
+                "foreground": "#B595FB"
+            }
+        },
+        {
             "name": "jsx/tsx text",
             "scope": "meta.jsx.children.tsx,meta.jsx.children.jsx",
             "settings": {
@@ -2127,14 +2168,14 @@
         "editor.lineHighlightBorder": "#28282800",
         "editorLineNumber.activeForeground": "#0df2d7",
         "editorLink.activeForeground": "#0df2d7",
-        "editorIndentGuide.background": "#9fadbd67",
-        "editorIndentGuide.activeBackground": "#0df2d782",
+        "editorIndentGuide.background1": "#9fadbd67",
+        "editorIndentGuide.activeBackground1": "#0df2d782",
         "editorRuler.foreground": "#243242",
         "editorBracketMatch.background": "#0f203330",
         "editorBracketMatch.border": "#DAE8F680",
         "editor.foldBackground": "#264f784d",
         "editorOverviewRuler.background": "#0f2033",
-        "editorOverviewRuler.border": "#243242",
+        "editorOverviewRuler.border": "#24324200",
         "editorError.foreground": "#ff4b33",
         "editorError.background": "#b73a3400",
         "editorError.border": "#ffffff00",
@@ -2203,9 +2244,9 @@
         "tab.hoverBackground": "#00424D",
         "tab.hoverForeground": "#DAE8F6",
         "tab.hoverBorder": "#0df2d700",
-        "scrollbarSlider.background": "#0df2d720",
-        "scrollbarSlider.hoverBackground": "#b7faf320",
-        "scrollbarSlider.activeBackground": "#0df2d720",
+        "scrollbarSlider.background": "#0df2d740",
+        "scrollbarSlider.hoverBackground": "#b7faf340",
+        "scrollbarSlider.activeBackground": "#0df2d740",
         "progressBar.background": "#0df2d7",
         "widget.shadow": "#0df2d700",
         "editorWidget.foreground": "#DAE8F6",
@@ -2280,7 +2321,7 @@
         "minimap.selectionHighlight": "#002a43",
         "minimap.errorHighlight": "#ff5842",
         "minimap.warningHighlight": "#ffd452",
-        "minimap.background": "#09172600",
+        "minimap.background": "#0C1D31",
         "sideBar.dropBackground": "#00424d",
         "editorGroup.emptyBackground": "#09192b",
         "panelSection.border": "#a175ff",
