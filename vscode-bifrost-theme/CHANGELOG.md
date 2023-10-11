@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.7] - 2023-10-11
+### Adjusted
++ Adjusted C# to match Dark Modern colors logically. (Contact me if you find deviations)
++ Minimap has a different background than the editor
++ Minimap scrollbar is a tad more visible than before
+
+### Fixed
++ JSX in MDX-files now render proper colors for HTML tags
+
 ## [0.1.6] - 2023-08-21
 
 ### Adjusted
